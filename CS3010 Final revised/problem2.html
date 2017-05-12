@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+    <title>confidence interval</title>
+
+    <link rel="stylesheet" type="text/css" href="final.css">
+
+    <script type="text/javascript" src="morecalculations.js">
+
+    </script>
+
+    <style ="text/css">
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <center>
+        <div class="master">
+            <h1 class="head">StatsHelp</h1>
+            <div class="topbar">
+
+                <ul class="topbar">
+
+                    <li><a href="finalhome.html"> HOME </a></li>
+
+                    <li><a href="problem1.html"> Normal Probability Distribution</a></li>
+
+                    <li><a href="problem2.html">Confidence Interval</a></li>
+
+                    <li><a href="problem3.html"> T Distribution</a></li>
+                    <br>
+                </ul>
+
+                <br>
+
+            </div>
+            <br />
+            <div class="textboxes">
+
+                <h1>Confidence Interval</h1>
+
+                <h3>Please Enter</h3>
+                <h4> Please Select: </h4>
+
+                <form action="">
+
+
+                    <label><input type="radio" id="two" name="inttype" value="" /> Two Sided </label>
+
+
+
+                    <label><input type="radio" id="lowb" name="inttype" value="" /> Lower Bound </label>
+
+
+
+                    <label><input type="radio" id="upb" name="inttype" value="" /> Upper Bound </label>
+                    <br>
+
+                    <h4> Confidence Level: </h4>
+
+
+                    <label><input type="radio" id="con1" name="percent" value="99.9" /> 99.9% </label>
+
+
+                    <label><input type="radio" id="con2" name="percent" value="99" /> 99% </label>
+
+
+
+                    <label><input type="radio" id="con3" name="percent" value="95" /> 95% </label>
+
+
+
+                    <label><input type="radio" id="con4" name="percent" value="90" /> 90% </label>
+
+                    <br>
+                    <br>
+
+
+                    <label>
+                        Sample Average:
+                        <input type="text" size="10" id="sa" />
+                    </label>
+                    <br>
+
+
+                    <label>
+                        Standard Deviation:
+                        <input type="text" size="10" id="dev" />
+                    </label>
+                    <br>
+
+
+                    <label>
+                        Sample Size:
+                        <input type="text" size="10" id="ss" />
+                    </label>
+                    <br>
+
+
+                    <label>
+                        Z Value
+                        <input type="text" size="10" id="zt" />
+                    </label>
+                    <br>
+
+
+
+
+                    <input type="button" value="Submit" onMouseDown="calculatePgTwoThreeDoubleSided()" />
+
+
+                    <br>
+                    <br>
+
+
+                    <label>
+                        Upper Bound:
+                        <input type="text" size="10" id="up" />
+                    </label>
+                    <br>
+
+                    <label>
+                        Lower Bound:
+                        <input type="text" size="10" id="low" />
+                    </label>
+                    <br>
+
+
+
+
+
+                </form>
+                <img src="ci.jpg" width="431" height="240" class="bell" />
+
+            </div>
+
+
+            <div class="problem1">
+
+
+                <h3>Instructions</h3>
+
+                <p>
+                    To calculate the Confidence interval please select a two sided answer,<br />
+                    then select a confidence percentage, enter the sample average, the sample<br />
+                    size and the standard deviation the z value will appear in the box.<br />
+                    Press submit and the upper, lower or both values will appear in the<br />
+                    box labeled answer. In case the code fails, please use the values<br />
+                    below to determine the Z value.
+                </p>
+
+
+                <!--<table class = "problem1">-->
+                <p>
+                    The following are critical values from the Z table:<br />
+                    <ul>
+                        <li>alpha = .10, Z = -1.28</li>
+                        <br>
+                        <li>alpha = .05, Z = -1.645</li>
+                        <br>
+                        <li>alpha = .025, Z = -1.96</li>
+                        <br>
+                        <li>alpha = .01, Z = -2.33</li>
+                        <br>
+                        <li>alpha = .005, Z = -2.575</li>
+                        <br>
+                        <li>alpha = .001, Z = -3.09</li>
+                        <br>
+                        <li>alpha = .0005, Z = -3.295</li>
+                        <br>
+                    </ul>
+                    Where "alpha" = 1-(Confidence Level Percentage/100) for lower and upper bound confidence intervals and (1-(Confidence Level Percentage/100))/2 for a Two Sided interval.
+                </p>
+            </div>
+
+        </div>
+
+    </center>
+
+</body>
+
+
+</html>

@@ -1,0 +1,5 @@
+FILE QUARANTINED
+
+Microsoft Forefront Protection for Exchange Server removed a file since it was found to match a filter.
+File name: "CS3010 Final.zip->morecalculations.js"
+Filter name: "FILE FILTER= From Exchange 2007: *.js"

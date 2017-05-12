@@ -1,0 +1,85 @@
+body {
+    background-image: url(math.jpg);
+    background-size: 100%;
+}
+
+ul.topbar {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+    display: inline-block;
+}
+
+div.topbar{
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.master{
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    text-transform: uppercase;
+    display: block;
+    width: 300px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 3px;
+}
+
+a:hover, a:active {
+    background-color: navy;
+}
+
+div.problem1 {
+    padding-top: 50px;
+    padding-left: 55%;
+}
+
+div.textboxes {
+    float: left;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+table.problem1 {
+    border: thin;
+}
+
+
+img.bell {
+    width: 400px;
+    background-color: #FFF;
+}
+
+
+div.desc {
+    text-align: center;
+}
+
+h1.head {
+    color: #00F;
+    text-align: center;
+}
